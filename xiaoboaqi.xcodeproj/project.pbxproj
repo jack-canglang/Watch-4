@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5E75AD1AE9055E00D35DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E75AC1AE9055E00D35DCC /* AppDelegate.swift */; };
+		1D5E75AF1AE9055E00D35DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E75AE1AE9055E00D35DCC /* ViewController.swift */; };
+		1D5E75B21AE9055E00D35DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75B01AE9055E00D35DCC /* Main.storyboard */; };
+		1D5E75B41AE9055E00D35DCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75B31AE9055E00D35DCC /* Images.xcassets */; };
+		1D5E75B71AE9055E00D35DCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75B51AE9055E00D35DCC /* LaunchScreen.xib */; };
+		1D5E75C31AE9055E00D35DCC /* xiaoboaqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E75C21AE9055E00D35DCC /* xiaoboaqiTests.swift */; };
+		1D5E75D51AE9056900D35DCC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E75D41AE9056900D35DCC /* InterfaceController.swift */; };
+		1D5E75D71AE9056900D35DCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75D61AE9056900D35DCC /* Images.xcassets */; };
+		1D5E75DB1AE9056900D35DCC /* xiaoboaqi WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75DA1AE9056900D35DCC /* xiaoboaqi WatchKit App.app */; };
+		1D5E75E31AE9056900D35DCC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75E11AE9056900D35DCC /* Interface.storyboard */; };
+		1D5E75E51AE9056900D35DCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5E75E41AE9056900D35DCC /* Images.xcassets */; };
+		1D5E75E81AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D5E75D01AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5E75BD1AE9055E00D35DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5E759F1AE9055E00D35DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5E75A61AE9055E00D35DCC;
+			remoteInfo = xiaoboaqi;
+		};
+		1D5E75DC1AE9056900D35DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5E759F1AE9055E00D35DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5E75D91AE9056900D35DCC;
+			remoteInfo = "xiaoboaqi WatchKit App";
+		};
+		1D5E75E61AE9056900D35DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5E759F1AE9055E00D35DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5E75CF1AE9056900D35DCC;
+			remoteInfo = "xiaoboaqi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D5E75EF1AE9056900D35DCC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D5E75E81AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D5E75A71AE9055E00D35DCC /* xiaoboaqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoboaqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5E75AB1AE9055E00D35DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5E75AC1AE9055E00D35DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D5E75AE1AE9055E00D35DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D5E75B11AE9055E00D35DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5E75B31AE9055E00D35DCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D5E75B61AE9055E00D35DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D5E75BC1AE9055E00D35DCC /* xiaoboaqiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoboaqiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5E75C11AE9055E00D35DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5E75C21AE9055E00D35DCC /* xiaoboaqiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xiaoboaqiTests.swift; sourceTree = "<group>"; };
+		1D5E75D01AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xiaoboaqi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5E75D31AE9056900D35DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5E75D41AE9056900D35DCC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1D5E75D61AE9056900D35DCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D5E75DA1AE9056900D35DCC /* xiaoboaqi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xiaoboaqi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5E75E01AE9056900D35DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5E75E21AE9056900D35DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1D5E75E41AE9056900D35DCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5E75A41AE9055E00D35DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75B91AE9055E00D35DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75CD1AE9056900D35DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5E759E1AE9055E00D35DCC = {
+			isa = PBXGroup;
+			children = (
+				1D5E75A91AE9055E00D35DCC /* xiaoboaqi */,
+				1D5E75BF1AE9055E00D35DCC /* xiaoboaqiTests */,
+				1D5E75D11AE9056900D35DCC /* xiaoboaqi WatchKit Extension */,
+				1D5E75DE1AE9056900D35DCC /* xiaoboaqi WatchKit App */,
+				1D5E75A81AE9055E00D35DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5E75A81AE9055E00D35DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75A71AE9055E00D35DCC /* xiaoboaqi.app */,
+				1D5E75BC1AE9055E00D35DCC /* xiaoboaqiTests.xctest */,
+				1D5E75D01AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex */,
+				1D5E75DA1AE9056900D35DCC /* xiaoboaqi WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5E75A91AE9055E00D35DCC /* xiaoboaqi */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75AC1AE9055E00D35DCC /* AppDelegate.swift */,
+				1D5E75AE1AE9055E00D35DCC /* ViewController.swift */,
+				1D5E75B01AE9055E00D35DCC /* Main.storyboard */,
+				1D5E75B31AE9055E00D35DCC /* Images.xcassets */,
+				1D5E75B51AE9055E00D35DCC /* LaunchScreen.xib */,
+				1D5E75AA1AE9055E00D35DCC /* Supporting Files */,
+			);
+			path = xiaoboaqi;
+			sourceTree = "<group>";
+		};
+		1D5E75AA1AE9055E00D35DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75AB1AE9055E00D35DCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5E75BF1AE9055E00D35DCC /* xiaoboaqiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75C21AE9055E00D35DCC /* xiaoboaqiTests.swift */,
+				1D5E75C01AE9055E00D35DCC /* Supporting Files */,
+			);
+			path = xiaoboaqiTests;
+			sourceTree = "<group>";
+		};
+		1D5E75C01AE9055E00D35DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75C11AE9055E00D35DCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5E75D11AE9056900D35DCC /* xiaoboaqi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75D41AE9056900D35DCC /* InterfaceController.swift */,
+				1D5E75D61AE9056900D35DCC /* Images.xcassets */,
+				1D5E75D21AE9056900D35DCC /* Supporting Files */,
+			);
+			path = "xiaoboaqi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D5E75D21AE9056900D35DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75D31AE9056900D35DCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5E75DE1AE9056900D35DCC /* xiaoboaqi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75E11AE9056900D35DCC /* Interface.storyboard */,
+				1D5E75E41AE9056900D35DCC /* Images.xcassets */,
+				1D5E75DF1AE9056900D35DCC /* Supporting Files */,
+			);
+			path = "xiaoboaqi WatchKit App";
+			sourceTree = "<group>";
+		};
+		1D5E75DF1AE9056900D35DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E75E01AE9056900D35DCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5E75A61AE9055E00D35DCC /* xiaoboaqi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5E75C61AE9055E00D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi" */;
+			buildPhases = (
+				1D5E75A31AE9055E00D35DCC /* Sources */,
+				1D5E75A41AE9055E00D35DCC /* Frameworks */,
+				1D5E75A51AE9055E00D35DCC /* Resources */,
+				1D5E75EF1AE9056900D35DCC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5E75E71AE9056900D35DCC /* PBXTargetDependency */,
+			);
+			name = xiaoboaqi;
+			productName = xiaoboaqi;
+			productReference = 1D5E75A71AE9055E00D35DCC /* xiaoboaqi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5E75BB1AE9055E00D35DCC /* xiaoboaqiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5E75C91AE9055E00D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqiTests" */;
+			buildPhases = (
+				1D5E75B81AE9055E00D35DCC /* Sources */,
+				1D5E75B91AE9055E00D35DCC /* Frameworks */,
+				1D5E75BA1AE9055E00D35DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5E75BE1AE9055E00D35DCC /* PBXTargetDependency */,
+			);
+			name = xiaoboaqiTests;
+			productName = xiaoboaqiTests;
+			productReference = 1D5E75BC1AE9055E00D35DCC /* xiaoboaqiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D5E75CF1AE9056900D35DCC /* xiaoboaqi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5E75EC1AE9056900D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi WatchKit Extension" */;
+			buildPhases = (
+				1D5E75CC1AE9056900D35DCC /* Sources */,
+				1D5E75CD1AE9056900D35DCC /* Frameworks */,
+				1D5E75CE1AE9056900D35DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5E75DD1AE9056900D35DCC /* PBXTargetDependency */,
+			);
+			name = "xiaoboaqi WatchKit Extension";
+			productName = "xiaoboaqi WatchKit Extension";
+			productReference = 1D5E75D01AE9056900D35DCC /* xiaoboaqi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1D5E75D91AE9056900D35DCC /* xiaoboaqi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5E75E91AE9056900D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi WatchKit App" */;
+			buildPhases = (
+				1D5E75D81AE9056900D35DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xiaoboaqi WatchKit App";
+			productName = "xiaoboaqi WatchKit App";
+			productReference = 1D5E75DA1AE9056900D35DCC /* xiaoboaqi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5E759F1AE9055E00D35DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaobo;
+				TargetAttributes = {
+					1D5E75A61AE9055E00D35DCC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1D5E75BB1AE9055E00D35DCC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1D5E75A61AE9055E00D35DCC;
+					};
+					1D5E75CF1AE9056900D35DCC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1D5E75D91AE9056900D35DCC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D5E75A21AE9055E00D35DCC /* Build configuration list for PBXProject "xiaoboaqi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5E759E1AE9055E00D35DCC;
+			productRefGroup = 1D5E75A81AE9055E00D35DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5E75A61AE9055E00D35DCC /* xiaoboaqi */,
+				1D5E75BB1AE9055E00D35DCC /* xiaoboaqiTests */,
+				1D5E75CF1AE9056900D35DCC /* xiaoboaqi WatchKit Extension */,
+				1D5E75D91AE9056900D35DCC /* xiaoboaqi WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5E75A51AE9055E00D35DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75B21AE9055E00D35DCC /* Main.storyboard in Resources */,
+				1D5E75B71AE9055E00D35DCC /* LaunchScreen.xib in Resources */,
+				1D5E75B41AE9055E00D35DCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75BA1AE9055E00D35DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75CE1AE9056900D35DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75DB1AE9056900D35DCC /* xiaoboaqi WatchKit App.app in Resources */,
+				1D5E75D71AE9056900D35DCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75D81AE9056900D35DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75E31AE9056900D35DCC /* Interface.storyboard in Resources */,
+				1D5E75E51AE9056900D35DCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5E75A31AE9055E00D35DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75AF1AE9055E00D35DCC /* ViewController.swift in Sources */,
+				1D5E75AD1AE9055E00D35DCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75B81AE9055E00D35DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75C31AE9055E00D35DCC /* xiaoboaqiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5E75CC1AE9056900D35DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E75D51AE9056900D35DCC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5E75BE1AE9055E00D35DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5E75A61AE9055E00D35DCC /* xiaoboaqi */;
+			targetProxy = 1D5E75BD1AE9055E00D35DCC /* PBXContainerItemProxy */;
+		};
+		1D5E75DD1AE9056900D35DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5E75D91AE9056900D35DCC /* xiaoboaqi WatchKit App */;
+			targetProxy = 1D5E75DC1AE9056900D35DCC /* PBXContainerItemProxy */;
+		};
+		1D5E75E71AE9056900D35DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5E75CF1AE9056900D35DCC /* xiaoboaqi WatchKit Extension */;
+			targetProxy = 1D5E75E61AE9056900D35DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5E75B01AE9055E00D35DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5E75B11AE9055E00D35DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5E75B51AE9055E00D35DCC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5E75B61AE9055E00D35DCC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1D5E75E11AE9056900D35DCC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5E75E21AE9056900D35DCC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5E75C41AE9055E00D35DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D5E75C51AE9055E00D35DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D5E75C71AE9055E00D35DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaoboaqi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D5E75C81AE9055E00D35DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaoboaqi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D5E75CA1AE9055E00D35DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xiaoboaqiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoboaqi.app/xiaoboaqi";
+			};
+			name = Debug;
+		};
+		1D5E75CB1AE9055E00D35DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xiaoboaqiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoboaqi.app/xiaoboaqi";
+			};
+			name = Release;
+		};
+		1D5E75EA1AE9056900D35DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = xiaoboaqi_WatchKit_Extension;
+				INFOPLIST_FILE = "xiaoboaqi WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1D5E75EB1AE9056900D35DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = xiaoboaqi_WatchKit_Extension;
+				INFOPLIST_FILE = "xiaoboaqi WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1D5E75ED1AE9056900D35DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "xiaoboaqi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D5E75EE1AE9056900D35DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "xiaoboaqi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5E75A21AE9055E00D35DCC /* Build configuration list for PBXProject "xiaoboaqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5E75C41AE9055E00D35DCC /* Debug */,
+				1D5E75C51AE9055E00D35DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5E75C61AE9055E00D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5E75C71AE9055E00D35DCC /* Debug */,
+				1D5E75C81AE9055E00D35DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D5E75C91AE9055E00D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5E75CA1AE9055E00D35DCC /* Debug */,
+				1D5E75CB1AE9055E00D35DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D5E75E91AE9056900D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5E75EA1AE9056900D35DCC /* Debug */,
+				1D5E75EB1AE9056900D35DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D5E75EC1AE9056900D35DCC /* Build configuration list for PBXNativeTarget "xiaoboaqi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5E75ED1AE9056900D35DCC /* Debug */,
+				1D5E75EE1AE9056900D35DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5E759F1AE9055E00D35DCC /* Project object */;
+}
